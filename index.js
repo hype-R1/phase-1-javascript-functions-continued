@@ -2,12 +2,12 @@ function saturdayFun(activity="roller-skate") {
     return `This Saturday, I want to ${activity}!`
 }
 
-function mondayWork(activity="go to the office") {
-    return `This Monday, I will ${activity}.`
+function mondayWork(bob="go to the office") {
+    return `This Monday, I will ${bob}.`
 }
 
-let wrapAdjective = function(style="*"){
-return function(adjective="special") {
-    return `You are ${style}${adjective}${style}!`
+let wrapAdjective = function(looks="*"){
+return function(thing="special") {
+    return `You are ${looks}${thing}${looks}!`
   }
 }
